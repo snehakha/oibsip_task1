@@ -1,0 +1,227 @@
+body {
+    background: linear-gradient(90deg, #FF6B6B, #6BFFB3, #6B7DFF, #FF6BFE);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+header {
+    color:aquamarine;
+    text-align: center;
+    padding: 25px;
+    font-family: cursive;
+    font-size:xx-large;
+    border-style: double;
+    margin-left: 175px;
+    margin-right: 175px;
+    border-radius: 25px ;
+    border: 5px solid blue;
+    background-color: #FF6B6B;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav{
+    background: linear-gradient(to bottom, #FFFF99, #FFCCCC);
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin: 0 10px;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.dropdown-content a{
+    display: list-item;
+}
+
+#about-us{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#about-us img{
+    border-radius: 10px;
+}
+
+#about-us h3{
+    text-align: justify;
+}
+
+#men{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#men img{
+    border-radius: 10px;
+}
+
+#men h3{
+    text-align: justify;
+}
+
+#men p{
+    margin-top: 30px;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: none;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+.clothes img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.headings{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: large;
+    font-weight: 500;
+}
+
+#kids{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.set{
+    border-radius: 10px;
+}
+
+#kids h3{
+    text-align: justify;
+}
+
+#kids p{
+    margin-top: 30px;
+}
+
+.toys img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.decor img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#home-decor{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#home-decor h3{
+    text-align: justify;
+}
+
+#home-decor p{
+    margin-top: 30px;
+}
+
+.machine img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#electronics{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#electronics h3{
+    text-align: justify;
+}
+
+#electronics p{
+    margin-top: 30px;
+}
+
+.clothes1 img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#women{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#women h3{
+    text-align: justify;
+}
+
+#women p{
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
